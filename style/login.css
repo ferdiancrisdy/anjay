@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('img/login_home.jpg');
+background-image: url('img/dot.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -46,7 +46,7 @@ top: -45px;
 
 .input-group-prepend span{
 width: 50px;
-background-color: #FFC312;
+background-color: #a5a5a5;
 color: black;
 border:0 !important;
 }
@@ -71,7 +71,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #FFC312;
+background-color: #a5a5a5;
 width: 100px;
 }
 

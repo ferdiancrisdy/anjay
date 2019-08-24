@@ -17,22 +17,4 @@ class Home extends CI_Controller {
 		$this->load->view('v_home',$data);
 		$this->load->view('layout/main_last');
 	}
-
-	function tambah(){
-		$id_peminjaman = $this->input->post('id_peminjaman');
-		$tanggal_peminjaman = $this->input->post('tanggal_peminjaman');
-		$tanggal_kembali = $this->input->post('tanggal_kembali');
-		$status_peminjaman = $this->input->post('status_peminjaman');
-		$id_pegawai = $this->input->post('id_pegawai');
-
-		$data = array(
-			'id_peminjaman' => $id_peminjaman,
-			'tanggal_peminjaman' => $tanggal_peminjaman,
-			'tanggal_kembali' => $tanggal_kembali,
-			'status_peminjaman' => $status_peminjaman,
-			'id_pegawai' => $id_pegawai
-		);
-		$this->m_data->input_data($data,'peminjaman');
-
-	}
 }

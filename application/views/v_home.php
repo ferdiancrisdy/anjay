@@ -9,7 +9,7 @@
         <div class="row">
           <div class="form-group col-md-12">
             <div>
-              <a href="<?php echo base_url('index.php/home/tambah');?>" class="btn btn-dark" style="margin-left:700px; margin-bottom:10px;"> 
+              <a href="<?php echo base_url('crud_peminjaman');?>" class="btn btn-dark" style="margin-left:700px; margin-bottom:10px;"> 
                 <i class="fa fa-user-plus"> Tambah </i> 
               </a>
             </div>
@@ -44,8 +44,8 @@
                         <i class="fa fa-info"></i>
                         &nbsp;
                       </a>
-                      <a href="<?= base_url('home/edit'.$p->id_peminjaman);?>">
-                        <i class="fa fa-trash"></i>
+                      <a href="<?= base_url('crud_peminjaman/hapus/'.$p->id_peminjaman);?>">
+                        <i class="fa fa-trash" style="color:red;"></i>
                       </a>
                     </div>
                     </td>

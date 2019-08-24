@@ -7,10 +7,12 @@
     <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
     <title>Website Peminjaman</title>
     <link rel="stylesheet" href="<?php echo base_url('style/home.css');?>">
-    <link href="../style/assets/font/css/all.css" rel="stylesheet">
+    <link href="<?php echo base_url('style/assets/font/css/all.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('style/assets/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('style/assets/css/bootstrap-datepicker3.css');?>" rel="stylesheet">
     <script src="<?php echo base_url('style/assets/js/bootstrap.min.js');?>"></script>
     <script src="<?php echo base_url('style/assets/jquery/jquery.min.js');?>"></script>
+    <script src="<?php echo base_url('style/assets/js/bootstrap-datepicker.min.js');?>"></script>
     <script src="<?php echo base_url('style/home.js');?>"></script>
 
  

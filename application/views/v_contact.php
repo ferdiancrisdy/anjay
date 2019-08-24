@@ -15,9 +15,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="inner">
                 <h3 class="masthead-brand">Kelompok : </h3><br><br><br>
                 <h6 style="text-align: left">1.Ferdian Crisdy Lavaldi</h6><br>
-                <h6 style="text-align: left">2.Bima Pria Titit</h6><br>
+                <h6 style="text-align: left">2.Bima Pria Aditya</h6><br>
                 <h6 style="text-align: left">3.Melawati</h6><br>
-                <h6 style="text-align: left">5.Peara Anjay</h6><br>
+                <h6 style="text-align: left">5.Peara Zahida</h6><br>
 				<nav class="nav nav-masthead">
 				</nav>
             </div>
