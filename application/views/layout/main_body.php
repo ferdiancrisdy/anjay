@@ -14,8 +14,6 @@
     <script src="<?php echo base_url('style/assets/jquery/jquery.min.js');?>"></script>
     <script src="<?php echo base_url('style/assets/js/bootstrap-datepicker.min.js');?>"></script>
     <script src="<?php echo base_url('style/home.js');?>"></script>
-
- 
   </head>
 
   <body>
@@ -32,8 +30,7 @@
           </div>
         </div>
         <div class="sidebar-header">
-          <div class="user-pic">
-          </div>
+          <div class="user-pic"></div>
           <div class="user-info">
             <span class="user-name"><?= ucwords($this->session->userdata('nama')) ?></span>
             <span class="user-role"><?php ?></span>

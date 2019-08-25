@@ -13,8 +13,11 @@ class Home extends CI_Controller {
 	{
 		$data['peminjaman'] = $this->m_data->tampil_data()->result();
 		check_not_login();
+
 		$this->load->view('layout/main_body');
+
 		$this->load->view('v_home',$data);
+
 		$this->load->view('layout/main_last');
 	}
 }
